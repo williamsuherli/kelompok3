@@ -1,0 +1,48 @@
+body, html{
+    background-image: url('https://i.ibb.co/Tm0x9yT/Screenshot-2023-09-23-201445.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    size: cover;
+    background-color: aqua;
+}
+.logo img{
+    width: 200px;
+    height: 200px;
+    margin-right: 300px;
+}
+
+.logo h1{
+        font-size: 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+      
+}
+
+@keyframes glowing{
+    0%
+    {color:rgb(255, 255, 255)}
+    50% {color: rgb(211, 155, 219)}
+}
+#glowing-text{
+        animation: glowing 2s infinite;
+}
+.garisbawah{
+    border: 1px solid red;
+    height: 20px;
+    background-color: red;
+
+}
+
+.judulpertama{
+    margin-top: 30px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
